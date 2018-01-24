@@ -1,0 +1,79 @@
+body {
+	color: #000;
+	margin: 0;
+	/*background-color: #003b5b;*/
+	background-image: url(/images/tapa.gif), url(/images/tapa.gif);
+	background-repeat: repeat-y, repeat-y;
+	background-position: left, right;
+	font-family: 'Oswald', sans-serif;
+}
+
+.wrapper {
+	width: 80%;
+	margin: 0 auto;
+	background-color: transparent;
+}
+
+header,
+nav,
+main,
+footer {
+	text-align: center;
+}
+
+nav {
+	text-align: center;
+}
+
+nav ul {
+	list-style: none;
+}
+
+main {}
+
+footer {}
+
+h1,
+h2,
+h3 {
+	color: #3366CC;
+	font-family: 'Lobster Two', cursive;
+}
+
+h1 {
+	font-size: 2rem;
+}
+
+p {
+	font-size: 1rem;
+	font-weight: 300;
+	line-height: 1.5;
+}
+
+.small,
+.breadcrumbs,
+.caption,
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: .8rem;
+}
+
+img {
+	max-width: 100%;
+}
+
+a:link {
+	color: #3366CC;
+}
+
+a:visited {
+	color: #CC0000;
+}
+
+a:hover {
+	color: #999999;
+}
+
+a:active {
+	color: #999999;
+}
